@@ -1,0 +1,29 @@
+@media screen and (min-width: 1024px) {
+  .main-content {
+    width: 60%;
+    padding: 55px 100px 0 10px;
+    flex: inherit;
+  }
+  .main-sign_up {
+    width: 40%;
+    flex: inherit;
+  }
+  .main-content-title {
+    margin-right: 100px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .app {
+    font-size: 50%;
+  }
+  .bithday-select * {
+    padding: 8px;
+  }
+  .birthday-wrapp {
+    flex-direction: column;
+  }
+  .bithday-link {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}

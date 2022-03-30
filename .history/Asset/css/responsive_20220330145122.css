@@ -1,0 +1,76 @@
+@media screen and (min-width: 1024px) {
+  .main-content {
+    width: 60%;
+    padding: 55px 100px 0 10px;
+    flex: inherit;
+  }
+  .main-sign_up {
+    width: 40%;
+    flex: inherit;
+  }
+  .main-content-title {
+    margin-right: 100px;
+  }
+}
+@media screen and (max-width: 1336px) and (min-width: 768px) {
+  .bithday-select * {
+    padding: 8px;
+  }
+
+  .bithday-link {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .main-content {
+    flex: inherit;
+  }
+  .main-sign_up {
+    flex: inherit;
+  }
+}
+@media screen and (max-width: 767px) {
+  .app {
+    font-size: 50%;
+  }
+  #main {
+    flex-direction: column;
+  }
+  #header {
+    flex-wrap: wrap;
+  }
+  .header-login {
+    gap: 5px;
+  }
+  .login-acccount_sub {
+    margin-top: 5px;
+  }
+  .sign-up-title {
+    font-size: 1.5em;
+  }
+  .main-content {
+    padding: 20px 20px 10px;
+  }
+  .btn-sign_up {
+    display: block;
+    width: 100%;
+  }
+  .birthday-wrapp {
+    align-items: center;
+  }
+  .bithday-select * {
+    padding: 5px 5px;
+  }
+  .language-link {
+    margin: 5px;
+  }
+  .birthday-wrapp {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #header {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,23 @@
+@media screen and (max-width: 1020px) {
+  .main-content {
+    padding: 55px 100px 0 10px;
+  }
+  .main-content-title {
+    margin-right: 100px;
+  }
+}
+@media screen and (max-width: 1336px) {
+  .app {
+    font-size: 50%;
+  }
+  .bithday-select * {
+    padding: 8px;
+  }
+  .birthday-wrapp {
+    flex-direction: column;
+  }
+  .bithday-link {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}

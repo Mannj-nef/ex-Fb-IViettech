@@ -1,0 +1,72 @@
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  font-size: 1.4em;
+  padding: 6px 20px;
+}
+.header-title {
+  font-size: 2.4em;
+  font-weight: 700;
+}
+.header-login {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-weight: 500;
+}
+.login-acccount_sub > span {
+  opacity: 0.6;
+}
+.btn-login {
+  background-color: #5973a8;
+  border-radius: 1px;
+  padding: 0 7px;
+  box-shadow: rgba(17, 17, 17, 0.2) 3px 3px 3px 0;
+}
+.btn.btn-login {
+}
+
+#main {
+  padding: 23px 0;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  background-color: #edf0f5;
+}
+
+.main-content {
+  padding: 55px 10px;
+}
+.main-content-title {
+  font-size: 1.8em;
+}
+.main-content-wrapp-fn {
+}
+.main-content__item {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  gap: 20px;
+}
+.icon_wrapper {
+  font-size: 2.8em;
+  color: #adb8d3;
+}
+.fa-solid {
+}
+.fa-newspaper {
+}
+.item-icon {
+}
+.main-content__item-decs {
+}
+.main-content__item-decs span {
+  padding-left: 10px;
+  opacity: 0.6;
+}
+.fa-solid.fa-newspaper.item-icon {
+}
